@@ -41,6 +41,14 @@ body {
     margin: 0 auto;
 }
 
+/* Estilo atualizado para o parágrafo destacado */
+.highlight {
+    background-color: #B0B0B0; /* Cor semelhante ao fundo da logo */
+    color: #000; /* Texto em preto */
+    padding: 20px;
+    border-radius: 5px;
+}
+
 .gallery {
     padding: 40px;
     background-color: #fff;
@@ -66,8 +74,8 @@ body {
 }
 
 .footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #B0B0B0; /* Cor semelhante ao fundo da logo */
+    color: #000; /* Texto em preto */
     text-align: center;
     padding: 20px;
     margin-top: 20px;
