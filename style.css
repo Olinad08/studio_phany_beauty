@@ -1,34 +1,74 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studio Phany Beauty</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header class="header">
-        <img src="logo.png" alt="Studio Phany Beauty" class="logo">
-        <h1>Studio Phany Beauty</h1>
-    </header>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
 
-    <section class="hero">
-        <h2>Beleza e Empoderamento</h2>
-        <p class="highlight">Nosso objetivo é elevar a sua autoestima e motivar você a ser independente. Aqui no Studio Phany Beauty, acreditamos que a verdadeira beleza vem de dentro e se reflete no exterior.</p>
-    </section>
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
 
-    <section class="gallery">
-        <h2>Nossas Modelos</h2>
-        <div class="gallery-grid">
-            <div class="gallery-item"><img src="foto1.jpg" alt="Modelo 1"></div>
-            <div class="gallery-item"><img src="foto2.jpg" alt="Modelo 2"></div>
-            <div class="gallery-item"><img src="foto3.jpg" alt="Modelo 3"></div>
-        </div>
-    </section>
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
 
-    <footer class="footer">
-        <p class="highlight">Contato: (XX) XXXXX-XXXX | Endereço: Rua Tal, 123, Cidade, Estado</p>
-        <p class="highlight">Siga-nos nas redes sociais: [Links]</p>
-    </footer>
-</body>
-</html>
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gallery {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
